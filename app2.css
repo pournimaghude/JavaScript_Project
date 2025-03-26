@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+.container>article {
+    width: 85%;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+table,
+td,
+tr,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 20px;
+}
+
+th {
+    background: purple;
+    color: white;
+}
+
+.add-user {
+    color: rgb(255, 166, 0);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.demo {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100vw;
+    z-index: 1000;
+}
+
+.sub-form-add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+form {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form>input {
+    padding: 10px 20px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    width: 300px;
+}
+
+form button {
+    padding: 10px 20px;
+    background: #111;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+form h1 {
+    color: purple;
+    text-align: center;
+    font-size: 25px;
+}
+form hr {
+    background: purple;
+    border: none;
+    height: 2px;
+}
+.fa-x{
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    cursor: pointer;
+    font-size: 30px;
+    color: #111;
+}
